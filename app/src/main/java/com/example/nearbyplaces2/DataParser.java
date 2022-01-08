@@ -53,7 +53,8 @@ private List <HashMap<String, String>> getAllNearbyPlaces(JSONArray jsonArray)
 
     List <HashMap<String, String>> NearbyPlacesList = new ArrayList<>();
 
-    HashMap<String, String> NearbyPlaceMap = null();
+    HashMap<String, String> NearbyPlaceMap = null;
+
 
     for (int i = 0; i<counter; i++)
     {
